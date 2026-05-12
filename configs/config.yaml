@@ -1,0 +1,19 @@
+data:
+  sample_rate: 22050
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  segment_duration: 4.0
+  train_split: 0.8
+  val_split: 0.1
+
+model:
+  encoder_channels: [32, 64, 128, 256]
+  dropout: 0.1
+
+training:
+  batch_size: 16
+  epochs: 50
+  learning_rate: 0.001
+  device: cuda
+  save_every: 5
