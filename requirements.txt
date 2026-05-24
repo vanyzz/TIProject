@@ -1,29 +1,9 @@
-# === Аудио и сигналы ===
-librosa==0.10.1
-soundfile==0.12.1
-pydub==0.25.1
-audioread==3.0.1
-torchaudio==2.1.0
-
-# === MIDI ===
-pretty_midi==0.2.10
-mido==1.3.2
-
-# === ML фреймворк ===
-torch==2.1.0
-torchvision==0.16.0
-numpy==1.24.4
-scikit-learn==1.3.2
-
-# === Разделение стемов ===
-spleeter==2.3.2
-
-# === Визуализация и эксперименты ===
-matplotlib==3.8.2
-tensorboard==2.15.1
-tqdm==4.66.1
-
-# === Утилиты ===
-hydra-core==1.3.2
-python-dotenv==1.0.0
-pytest==7.4.3
+torch>=2.1.0
+pretty_midi>=0.2.10
+flask>=3.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+mido>=1.3.0
+librosa>=0.10.0
+soundfile>=0.12.0
+ 
